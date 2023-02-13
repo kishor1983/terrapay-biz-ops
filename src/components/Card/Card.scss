@@ -1,0 +1,46 @@
+.card-wrap{
+    border: 1px solid #BAC2D4;
+    border-radius: 4px;
+
+    .head{
+        padding: 15px 20px;
+        color: #3A3A3A;
+        font-weight: 600;
+        line-height: 100%;
+
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        img{
+            margin-right: 12px;
+        }
+
+        img.menu{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 15px;
+            margin: 0px;
+        }
+
+        &.warning{
+            background:  rgba(239, 122, 105, 0.2);
+        }
+
+        &.success{
+            background: rgba(78, 203, 113, 0.2);
+        }
+
+        &.calendar{
+            background: rgba(255, 154, 98, 0.2);
+        }
+    }
+
+    .content{
+        font-size: 1.2rem;
+        line-height: 18px;
+        font-weight: 300;
+        padding: 12px 20px;
+    }
+}

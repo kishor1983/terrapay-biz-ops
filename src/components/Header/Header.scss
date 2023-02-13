@@ -1,0 +1,89 @@
+header {
+    width: 100%;
+    background: #F1F3F6;
+    padding: 22px 0px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    .logo{
+      margin-left: 39px;
+    }
+  
+    ul.right-nav{
+      display: flex;
+      align-items: center;
+  
+      li{
+        margin-right: 25px;
+      }
+    }
+  
+    .notification{
+      position: relative;
+  
+      .badge{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: 10px;
+        top: 0px;
+        background: #E25E56;
+        color: #fff;
+        font-size: 1.0rem;
+        font-weight: 600;
+        line-height: 12px;
+        border-radius: 100%;
+      }
+    }
+  
+    .nav-profile{
+      font-size: 2.0rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      padding-right: 25px;
+  
+      img{
+        margin-right: 8px;
+      }
+    }
+  
+    .navlink{
+      .profile {
+          min-width: 240px;
+          padding: 0;
+          position: absolute;
+          top: 100%;
+          right: 0; 
+          background-color: #fff;
+          background-clip: padding-box;
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          border-radius: 0.25rem;
+  
+          .dropdown-item{
+            font-size: 1.6rem;
+            border-top: solid 1px #ccc;
+            padding: 8px 15px;
+            display: block;
+
+            &:first-child{
+              border-top: none;
+            }
+          }
+      }
+    }
+  }
+
+  .dropdown-toggle::after {
+    content: "\e900";
+    border: 0px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    display: inline-block;
+    font-family: "icomoon" !important;
+    font-size: 0.8rem;
+    color: #333333;
+  }

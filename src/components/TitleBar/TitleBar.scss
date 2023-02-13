@@ -1,0 +1,11 @@
+.hdtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    position: relative;
+  
+    .details {
+      font-size: 1.4rem;
+    }
+  }
